@@ -10,7 +10,6 @@ class Logger {
 private:
 	Logger() {};
 	static Logger* pObj;
-
 public:
 	static Logger* GetInstance();
 	void PutMessage(string msg);
